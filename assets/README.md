@@ -1,0 +1,1 @@
+The font uses the [`04b`](https://www.dafont.com/font-comment.php?file=04b_30) font. Its description states it to be a "freeware".
