@@ -93,3 +93,26 @@ code,
   background-color: rgba(0, 0, 0, 0.04);
   border-radius: 3px;
 }
+.bounce{
+  animation:bounce 10s linear 100;
+  }
+ @keyframes bounce{
+    0%{
+      transform:translate(-100px,0px);
+      }
+    20%{
+       transform:translate(500px,500px);
+      }
+     40%{
+       transform:translate(-500px,100px);
+       }
+    60%{
+       transform:translate(1000px,-100px);
+      }
+     80%{
+       transform:translate(-750px,500px);
+       }
+   100%{
+      transform:translate(-100px,0px);
+      }
+   }
